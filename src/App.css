@@ -1,0 +1,35 @@
+.block-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+.inpt{
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    border-style: none;
+    border-radius: 10px;
+}
+.inpt-label{
+    color: rgb(109, 101, 101);
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+#main-btn{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.container-result{
+    font-size: 30px;
+    color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+

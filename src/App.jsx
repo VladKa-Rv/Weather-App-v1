@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-import Header from "./Components/Header/Header";
 import "./App.css";
 import Resp from "./Components/Responce/Resp";
 
@@ -36,14 +35,12 @@ export default function App() {
         });
       })
       .catch(() => {
-        alert("Something went wrong. Please try again later.");
         setData(initialState);
       });
   }
 
   return (
     <div className="container-fluid">
-      <Header />
       <div id="app" className="block-input">
         <label className="inpt-label ">Choose city</label>
         <input ref={inpt} className="inpt" type="text" placeholder="New York" />
